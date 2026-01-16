@@ -1,0 +1,16 @@
+task-tracker-devops/
+├── app/
+│   └── main.py
+├── requirements.txt
+├── Dockerfile
+├── terraform/
+│   ├── provider.tf
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── terraform.tfvars
+├── ansible/
+│   └── deploy.yml
+└── .github/
+    └── workflows/
+        └── deploy.yml
